@@ -8,3 +8,7 @@
 ================
 [2023-05-03 23:08:02] Текст ошибки: Возникла ошибка | Файл: C:\OSPanel\domains\myshop.loc\public\index.php | Строка: 11 
 ================
+[2023-05-04 15:06:12] Текст ошибки: wfm\Router::upperCamelCase(): Return value must be of type string, none returned | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 66 
+================
+[2023-05-04 15:28:58] Текст ошибки: Controller app\controllers\MainController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 39 
+================
