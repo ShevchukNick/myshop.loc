@@ -4,7 +4,7 @@ define("ROOT",dirname(__DIR__));
 define("WWW",ROOT . '/public');
 define('APP', ROOT . '/app');
 define('CORE', ROOT . '/vendor/wfm');
-define('HELPETS', ROOT . '/vendor/wfm/helpers');
+define('HELPERS', ROOT . '/vendor/wfm/helpers');
 define('CACHE', ROOT . '/tmp/cache');
 define('LOGS', ROOT . '/tmp/logs');
 define('CONFIG', ROOT . '/config');
