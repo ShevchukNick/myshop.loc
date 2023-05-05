@@ -46,3 +46,5 @@
 ================
 [2023-05-05 11:27:59] Текст ошибки: не найден шаблон C:\OSPanel\domains\myshop.loc/app/views/layouts/myshop.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 41 
 ================
+[2023-05-05 12:40:56] Текст ошибки: Undefined variable $test | Файл: C:\OSPanel\domains\myshop.loc\app\views\Main\index.php | Строка: 3 
+================
