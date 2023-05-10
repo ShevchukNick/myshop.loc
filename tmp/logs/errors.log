@@ -532,3 +532,9 @@
 ================
 [2023-05-10 13:54:38] Текст ошибки: Undefined variable $slides | Файл: C:\OSPanel\domains\myshop.loc\app\views\Main\index.php | Строка: 7 
 ================
+[2023-05-10 17:52:51] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 18:55:28] Текст ошибки: Undefined variable $products | Файл: C:\OSPanel\domains\myshop.loc\app\views\parts\products_loop.php | Строка: 4 
+================
+[2023-05-10 18:55:45] Текст ошибки: Undefined variable $products | Файл: C:\OSPanel\domains\myshop.loc\app\views\parts\products_loop.php | Строка: 4 
+================
