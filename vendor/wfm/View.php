@@ -6,17 +6,17 @@ use RedBeanPHP\R;
 
 class View
 {
-    public string $content='';
+    public string $content = '';
 
     public function __construct(
         public $route,
-        public $layout ='',
+        public $layout = '',
         public $view = '',
-        public $meta=[]
+        public $meta = []
     )
     {
         if (false !== $this->layout) {
-            $this->layout=$this->layout ?: LAYOUT;
+            $this->layout = $this->layout ?: LAYOUT;
         }
     }
 
@@ -25,46 +25,46 @@ class View
         if (is_array($data)) {
             extract($data);
         }
-        $prefix = str_replace('\\','/',$this->route['admin_prefix']);
+        $prefix = str_replace('\\', '/', $this->route['admin_prefix']);
         $view_file = APP . "/views/{$prefix}{$this->route['controller']}/{$this->view}.php";
         if (is_file($view_file)) {
             ob_start();
             require_once $view_file;
             $this->content = ob_get_clean();
         } else {
-            throw new \Exception("не найден вид {$view_file}",500);
+            throw new \Exception("не найден вид {$view_file}", 500);
         }
 
-        if (false !==$this->layout) {
+        if (false !== $this->layout) {
             $layout_file = APP . "/views/layouts/{$this->layout}.php";
             if (is_file($layout_file)) {
                 require_once $layout_file;
-            }else {
-                throw new \Exception("не найден шаблон {$layout_file}",500);
+            } else {
+                throw new \Exception("не найден шаблон {$layout_file}", 500);
             }
         }
     }
 
     public function getMeta()
     {
-        $out='<title>'. h($this->meta['title']) . '</title>' . PHP_EOL;
-        $out .='<meta name="description" content="' . h($this->meta['description'])  . '">' . PHP_EOL;
-        $out .='<meta name="keywords" content="' . h($this->meta['keywords'])  . '">' . PHP_EOL;
+        $out = '<title>' . App::$app->getProperty('site_name') . ' :: ' . h($this->meta['title']) . '</title>' . PHP_EOL;
+        $out .= '<meta name="description" content="' . h($this->meta['description']) . '">' . PHP_EOL;
+        $out .= '<meta name="keywords" content="' . h($this->meta['keywords']) . '">' . PHP_EOL;
         return $out;
     }
 
     public function getDbLogs()
     {
         if (DEBUG) {
-            $logs = R::getDatabaseAdapter()
-                ->getDatabase()
-                ->getLogger();
-            $logs = array_merge($logs->grep('SELECT'),$logs->grep('select'),$logs->grep('INSERT'),$logs->grep('DELETE'),$logs->grep('UPDATE'));
-            debug($logs);
-        }
+                $logs = R::getDatabaseAdapter()
+                    ->getDatabase()
+                    ->getLogger();
+                $logs = array_merge($logs->grep('SELECT'), $logs->grep('select'), $logs->grep('INSERT'), $logs->grep('DELETE'), $logs->grep('UPDATE'));
+                debug($logs);
+            }
     }
 
-    public function getPart($file,$data=null)
+    public function getPart($file, $data = null)
     {
         if (is_array($data)) {
             extract($data);

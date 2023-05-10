@@ -2,6 +2,6 @@
 
 return [
     'admin_email'=>'admin@myshop.loc',
-    'site_name'=>'E-shop',
+    'site_name'=>'My DREAM shop',
     'pagination'=>3,
 ];

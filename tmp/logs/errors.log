@@ -538,3 +538,111 @@
 ================
 [2023-05-10 18:55:45] Текст ошибки: Undefined variable $products | Файл: C:\OSPanel\domains\myshop.loc\app\views\parts\products_loop.php | Строка: 4 
 ================
+[2023-05-10 22:47:10] Текст ошибки: не найден вид C:\OSPanel\domains\myshop.loc/app/views/Product/view.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 35 
+================
+[2023-05-10 22:48:48] Текст ошибки: Call to a member function getDatabase() on null | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 60 
+================
+[2023-05-10 23:07:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:07:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:07:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:07:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:07:09] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:09:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:09:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:09:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:09:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:09:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:11:16] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:11:16] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:11:16] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:11:16] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:19:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:19:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:19:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:19:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:19:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:19:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:19:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:19:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:19:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:19:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:24:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:24:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:24:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:24:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:24:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:26:08] Текст ошибки: syntax error, unexpected token ";" | Файл: C:\OSPanel\domains\myshop.loc\app\views\parts\header.php | Строка: 82 
+================
+[2023-05-10 23:26:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:26:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:26:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:26:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:26:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:28:13] Текст ошибки: Call to a member function getDatabase() on null | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 60 
+================
+[2023-05-10 23:28:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:28:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:28:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:28:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:28:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:28:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:28:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:28:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:28:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:28:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:46:19] Текст ошибки: Class "app\widgets\Language\Language" not found | Файл: C:\OSPanel\domains\myshop.loc\app\controllers\AppController.php | Строка: 16 
+================
+[2023-05-10 23:49:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:49:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:49:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:49:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-10 23:49:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
