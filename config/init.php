@@ -9,7 +9,7 @@ define('CACHE', ROOT . '/tmp/cache');
 define('LOGS', ROOT . '/tmp/logs');
 define('CONFIG', ROOT . '/config');
 define('LAYOUT', 'myshop');
-define('PATH', 'http://myshop.loc');
+define("PATH", 'http://myshop.loc');
 define('ADMIN', 'http://myshop.loc/admin');
 define('NO_IMAGE', 'uploads/no_image.jpg');
 

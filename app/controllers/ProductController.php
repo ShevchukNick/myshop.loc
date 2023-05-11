@@ -2,11 +2,10 @@
 
 namespace app\controllers;
 
-class PageController
+class ProductController extends AppController
 {
     public function viewAction()
     {
-        echo __METHOD__;
-    }
 
+    }
 }
