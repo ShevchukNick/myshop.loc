@@ -109,7 +109,7 @@ use wfm\View;
 <?php $this->getDbLogs(); ?>
 
 <script>
-    cons PATH = '<?= PATH ?>';
+    const PATH = '<?= PATH ?>//';
 </script>
 
 <script src="<?= PATH ?>/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
