@@ -6,9 +6,9 @@ use RedBeanPHP\R;
 
 class Cart extends AppModel
 {
-    public function get_product($id, $lang)
+    public function get_product($id, $lang):array
     {
-        return R::getRow("SELECT p.*,p.* FROM product p JOIN product_description pd on p.id = pd.product_id WHERE p.status=1 AND p.id=? AND pd.language_id=?", [$id, $lang['id']]);
+        return R::getRow("SELECT p.*,pd.* FROM product p JOIN product_description pd on p.id = pd.product_id WHERE p.status=1 AND p.id=? AND pd.language_id = ?", [$id, $lang['id']]);
     }
 
 
@@ -29,7 +29,7 @@ class Cart extends AppModel
                 'title' => $product['title'],
                 'slug' => $product['slug'],
                 'price' => $product['price'],
-                'qty' => $product['qty'],
+                'qty' => $qty,
                 'img'=> $product['img'],
                 'is_download'=>$product['is_download']
             ];

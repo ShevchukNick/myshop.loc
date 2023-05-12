@@ -92,3 +92,29 @@
 ================
 [2023-05-12 22:35:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
 ================
+[2023-05-13 00:03:39] Текст ошибки: Undefined array key "title" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 29 
+================
+[2023-05-13 00:03:43] Текст ошибки: Undefined array key "title" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 29 
+================
+[2023-05-13 00:18:35] Текст ошибки: Undefined array key "title" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 29 
+================
+[2023-05-13 00:33:11] Текст ошибки: Undefined array key "title" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 29 
+================
+[2023-05-13 00:34:00] Текст ошибки: Undefined array key "title" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 29 
+================
+[2023-05-13 00:34:11] Текст ошибки: Undefined array key "title" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 29 
+================
+[2023-05-13 00:37:21] Текст ошибки: Undefined array key "title" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 29 
+================
+[2023-05-13 00:38:06] Текст ошибки: Undefined array key "title" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 29 
+================
+[2023-05-13 00:39:00] Текст ошибки: Undefined array key "title" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 29 
+================
+[2023-05-13 00:41:16] Текст ошибки: Method app\controllers\CartController::deleteAction не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 58 
+================
+[2023-05-13 00:42:08] Текст ошибки: Undefined array key "title" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 29 
+================
+[2023-05-13 01:19:03] Текст ошибки: Undefined array key "qty" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 32 
+================
+[2023-05-13 01:20:03] Текст ошибки: Undefined array key "qty" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 32 
+================

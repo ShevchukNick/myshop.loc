@@ -1,6 +1,6 @@
 $(function() {
 
-	// Cart
+	// CART
 
 	function showCart(cart) {
 		$('#cart-modal .modal-cart-content').html(cart);
@@ -9,29 +9,40 @@ $(function() {
 		modal.show();
 	}
 
-	$('.add-to-cart').on('click',function (e) {
+	$('#get-cart').on('click', function (e) {
 		e.preventDefault();
-		const id = $(this).data('id');
-		const qty = $('#input-quantity').val() ? $('#input-quantity'): 1;
-		const $this = $(this);
-
 		$.ajax({
-			url:'cart/add',
-			type:'GET',
-			data: {id:id,qty:qty},
-			success:function (res) {
+			url: 'cart/show',
+			type: 'GET',
+			success: function (res) {
 				showCart(res);
 			},
-			error:function () {
-				alert('Error');
+			error: function () {
+				alert('Error!');
 			}
 		});
 	});
 
+	$('.add-to-cart').on('click', function (e) {
+		e.preventDefault();
+		const id = $(this).data('id');
+		const qty = $('#input-quantity').val() ? $('#input-quantity').val() : 1;
+		const $this = $(this);
 
+		$.ajax({
+			url: 'cart/add',
+			type: 'GET',
+			data: {id: id, qty: qty},
+			success: function (res) {
+				showCart(res);
+			},
+			error: function () {
+				alert('Error!');
+			}
+		});
+	});
 
-	// Cart
-
+	// CART
 
 	$('.open-search').click(function(e) {
 		e.preventDefault();
@@ -76,6 +87,5 @@ $(function() {
 		const lang_code = $(this).data('langcode');
 		window.location = PATH + '/language/change?lang=' + lang_code;
 	});
-
 
 });
