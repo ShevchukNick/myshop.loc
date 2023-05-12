@@ -1,5 +1,38 @@
 $(function() {
 
+	// Cart
+
+	function showCart(cart) {
+		$('#cart-modal .modal-cart-content').html(cart);
+		const myModalEl = document.querySelector('#cart-modal');
+		const modal = bootstrap.Modal.getOrCreateInstance(myModalEl);
+		modal.show();
+	}
+
+	$('.add-to-cart').on('click',function (e) {
+		e.preventDefault();
+		const id = $(this).data('id');
+		const qty = $('#input-quantity').val() ? $('#input-quantity'): 1;
+		const $this = $(this);
+
+		$.ajax({
+			url:'cart/add',
+			type:'GET',
+			data: {id:id,qty:qty},
+			success:function (res) {
+				showCart(res);
+			},
+			error:function () {
+				alert('Error');
+			}
+		});
+	});
+
+
+
+	// Cart
+
+
 	$('.open-search').click(function(e) {
 		e.preventDefault();
 		$('#search').addClass('active');
