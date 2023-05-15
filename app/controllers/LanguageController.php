@@ -2,13 +2,14 @@
 
 namespace app\controllers;
 
+use app\models\Cart;
 use wfm\App;
 
 class LanguageController extends AppController
 {
     public function changeAction()
     {
-        $lang = $_GET['lang'] ?? null;
+        $lang = get('lang','s');
         if ($lang) {
             if (array_key_exists($lang,App::$app->getProperty('languages'))){
                 //                отрезаем базовый урл
@@ -26,6 +27,7 @@ class LanguageController extends AppController
                         array_unshift($url_parts,$lang);
                     }
                 }
+                Cart::translate_cart(App::$app->getProperty('languages')[$lang]);
                 $url = PATH . '/' . implode('/',$url_parts);
                 redirect($url);
             }
