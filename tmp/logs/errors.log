@@ -118,3 +118,11 @@
 ================
 [2023-05-13 01:20:03] Текст ошибки: Undefined array key "qty" | Файл: C:\OSPanel\domains\myshop.loc\app\models\Cart.php | Строка: 32 
 ================
+[2023-05-13 17:51:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-13 22:46:41] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-15 12:27:00] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-15 15:25:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================

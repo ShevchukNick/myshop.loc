@@ -38,4 +38,13 @@ class Cart extends AppModel
         $_SESSION['cart.sum']= !empty($_SESSION['cart.sum']) ? $_SESSION['cart.sum'] + $qty * $product['price'] : $qty * $product['price'];
         return true;
     }
+
+    public function deleteItem($id)
+    {
+        $qty_minus = $_SESSION['cart'][$id]['qty'];
+        $sum_minus = $_SESSION['cart'][$id]['qty']  * $_SESSION['cart'][$id]['price'];
+        $_SESSION['cart.qty'] -= $qty_minus;
+        $_SESSION['cart.sum'] -= $sum_minus;
+        unset($_SESSION['cart'][$id]);
+    }
 }
