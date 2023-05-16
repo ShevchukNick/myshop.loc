@@ -282,3 +282,11 @@
 ================
 [2023-05-16 00:53:12] Текст ошибки: Controller app\controllers\CategoryController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
 ================
+[2023-05-16 11:07:22] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-16 11:07:24] Текст ошибки: Controller app\controllers\CategoryController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-16 11:07:35] Текст ошибки: Controller app\controllers\CategoryController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-16 11:07:41] Текст ошибки: Controller app\controllers\CategoryController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
