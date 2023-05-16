@@ -290,3 +290,11 @@
 ================
 [2023-05-16 11:07:41] Текст ошибки: Controller app\controllers\CategoryController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
 ================
+[2023-05-16 14:15:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-16 16:27:22] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, bool given | Файл: C:\OSPanel\domains\myshop.loc\app\views\Category\view.php | Строка: 29 
+================
+[2023-05-16 16:27:25] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, bool given | Файл: C:\OSPanel\domains\myshop.loc\app\views\Category\view.php | Строка: 29 
+================
+[2023-05-16 16:27:33] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, bool given | Файл: C:\OSPanel\domains\myshop.loc\app\views\Category\view.php | Строка: 29 
+================
