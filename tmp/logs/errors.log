@@ -298,3 +298,25 @@
 ================
 [2023-05-16 16:27:33] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, bool given | Файл: C:\OSPanel\domains\myshop.loc\app\views\Category\view.php | Строка: 29 
 ================
+[2023-05-16 21:55:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-16 22:03:44] Текст ошибки: Controller app\controllers\SearchController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-16 22:22:58] Текст ошибки: Division by zero | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Pagination.php | Строка: 100 
+================
+[2023-05-16 22:24:36] Текст ошибки: не найден вид C:\OSPanel\domains\myshop.loc/app/views/Search/index.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 35 
+================
+[2023-05-16 22:25:00] Текст ошибки: не найден вид C:\OSPanel\domains\myshop.loc/app/views/Search/index.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 35 
+================
+[2023-05-16 22:29:12] Текст ошибки: Call to undefined method app\models\Search::get_count_find_products() | Файл: C:\OSPanel\domains\myshop.loc\app\controllers\SearchController.php | Строка: 21 
+================
+[2023-05-16 22:31:13] Текст ошибки: не найден вид C:\OSPanel\domains\myshop.loc/app/views/Search/index.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 35 
+================
+[2023-05-16 22:33:00] Текст ошибки: не найден вид C:\OSPanel\domains\myshop.loc/app/views/Search/index.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 35 
+================
+[2023-05-16 22:34:29] Текст ошибки: Не найден вид C:\OSPanel\domains\myshop.loc/app/views/Search/index.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 38 
+================
+[2023-05-16 22:36:19] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-16 22:36:25] Текст ошибки: не найден вид C:\OSPanel\domains\myshop.loc/app/views/Search/index.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 35 
+================
