@@ -340,3 +340,7 @@
 ================
 [2023-05-17 14:45:17] Текст ошибки: не найден вид C:\OSPanel\domains\myshop.loc/app/views/Page/view.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 35 
 ================
+[2023-05-17 15:43:32] Текст ошибки: Method app\controllers\UserController::loginAction не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 58 
+================
+[2023-05-17 15:57:45] Текст ошибки: Method app\controllers\UserController::loginAction не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 58 
+================
