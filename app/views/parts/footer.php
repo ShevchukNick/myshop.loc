@@ -16,10 +16,7 @@ use wfm\View;
                             'class'=>'list-unstyled',
                             'prepend'=>'<li><a href="' . base_url() . '">' . ___('tpl_home_link') . '</a></li>',
                         ]) ?>
-<!--                        -->
-<!--                        <li><a href="#">О магазине</a></li>-->
-<!--                        <li><a href="#">Оплата и доставка</a></li>-->
-<!--                        <li><a href="#">Контакты</a></li>-->
+
                 </div>
 
                 <div class="col-md-3 col-6">
