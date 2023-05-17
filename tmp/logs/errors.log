@@ -320,3 +320,13 @@
 ================
 [2023-05-16 22:36:25] Текст ошибки: не найден вид C:\OSPanel\domains\myshop.loc/app/views/Search/index.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 35 
 ================
+[2023-05-17 00:35:40] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-17 11:06:45] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-17 11:48:44] Текст ошибки: Method app\controllers\WishlistController::deleteAction не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 58 
+================
+[2023-05-17 11:48:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-17 12:07:31] Текст ошибки: не найден вид C:\OSPanel\domains\myshop.loc/app/views/Wishlist/index.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 35 
+================
