@@ -358,3 +358,5 @@
 ================
 [2023-05-17 17:49:47] Текст ошибки: Unknown named parameter $password | Файл: C:\OSPanel\domains\myshop.loc\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка: 1522 
 ================
+[2023-05-18 13:59:26] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
