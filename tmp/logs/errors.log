@@ -360,3 +360,43 @@
 ================
 [2023-05-18 13:59:26] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
 ================
+[2023-05-18 16:40:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-18 17:10:04] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\myshop.loc\vendor\gabordemooij\redbean\RedBeanPHP\QueryWriter\AQueryWriter.php | Строка: 223 
+================
+[2023-05-18 17:10:04] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-18 17:10:16] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\myshop.loc\vendor\gabordemooij\redbean\RedBeanPHP\QueryWriter\AQueryWriter.php | Строка: 223 
+================
+[2023-05-18 17:15:13] Текст ошибки: Array to string conversion | Файл: C:\OSPanel\domains\myshop.loc\vendor\gabordemooij\redbean\RedBeanPHP\QueryWriter\AQueryWriter.php | Строка: 223 
+================
+[2023-05-18 22:50:26] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\phpmailer\phpmailer\src\SMTP.php | Строка: 1238 
+================
+[2023-05-18 22:50:26] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\App.php | Строка: 14 
+================
+[2023-05-18 22:50:26] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\App.php | Строка: 14 
+================
+[2023-05-18 22:50:26] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\App.php | Строка: 14 
+================
+[2023-05-18 22:50:26] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\App.php | Строка: 14 
+================
+[2023-05-18 22:50:26] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\App.php | Строка: 14 
+================
+[2023-05-18 22:54:04] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\phpmailer\phpmailer\src\SMTP.php | Строка: 1238 
+================
+[2023-05-18 22:54:04] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\App.php | Строка: 14 
+================
+[2023-05-18 22:54:04] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\App.php | Строка: 14 
+================
+[2023-05-18 23:03:38] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\phpmailer\phpmailer\src\SMTP.php | Строка: 396 
+================
+[2023-05-18 23:03:38] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\App.php | Строка: 14 
+================
+[2023-05-18 23:03:38] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\App.php | Строка: 14 
+================
+[2023-05-18 23:03:38] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\App.php | Строка: 14 
+================
+[2023-05-18 23:03:38] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\App.php | Строка: 14 
+================
+[2023-05-18 23:03:38] Текст ошибки: Maximum execution time of 60 seconds exceeded | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\App.php | Строка: 14 
+================
