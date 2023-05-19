@@ -422,3 +422,11 @@
 ================
 [2023-05-19 15:08:42] Текст ошибки: Method app\controllers\UserController::orderAction не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 58 
 ================
+[2023-05-19 17:18:52] Текст ошибки: syntax error, unexpected token "}" | Файл: C:\OSPanel\domains\myshop.loc\app\controllers\UserController.php | Строка: 150 
+================
+[2023-05-19 17:18:54] Текст ошибки: syntax error, unexpected token "}" | Файл: C:\OSPanel\domains\myshop.loc\app\controllers\UserController.php | Строка: 150 
+================
+[2023-05-19 17:18:55] Текст ошибки: syntax error, unexpected token "}" | Файл: C:\OSPanel\domains\myshop.loc\app\controllers\UserController.php | Строка: 150 
+================
+[2023-05-19 18:10:49] Текст ошибки: не найден вид C:\OSPanel\domains\myshop.loc/app/views/User/credentials.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 35 
+================

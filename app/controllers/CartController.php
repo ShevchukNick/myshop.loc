@@ -77,11 +77,10 @@ class CartController extends AppController
             // reg user if !auth
             if (!User::checkAuth()) {
                $user = new User();
-               $data = $_POST;
-               $user->load($data);
-               if (!$user ->validate($data) || !$user->checkUnique()) {
+               $user->load();
+               if (!$user ->validate($user->attributes) || !$user->checkUnique()) {
                    $user->getErrors();
-                   $_SESSION['form-data']=$data;
+                   $_SESSION['form-data']=$user->attributes;
                    redirect();
                } else {
                    $user->attributes['password']=password_hash( $user->attributes['password'],PASSWORD_DEFAULT);

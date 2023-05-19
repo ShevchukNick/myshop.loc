@@ -17,7 +17,7 @@
             <h1 class="section-title"><?php __('tpl_cabinet'); ?></h1>
         </div>
 
-        <?php $this->getPart('parts/cabinet_sidebar'); ?>
+<!--        --><?php //$this->getPart('parts/cabinet_sidebar'); ?>
 
         <div class="col-md-9 order-md-1">
             <ul class="list-unstyled">
