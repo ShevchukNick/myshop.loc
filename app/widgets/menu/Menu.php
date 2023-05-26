@@ -15,7 +15,7 @@ class Menu
     protected $container = 'ul';
     protected $class = 'menu';
     protected $cache = 3600;
-    protected $cacheKey = 'ishop_menu';
+    protected $cacheKey = 'myshop_menu';
     protected $attrs = [];
     protected $prepend = '';
     protected $language;
