@@ -4,6 +4,7 @@ namespace app\models\admin;
 
 use app\models\AppModel;
 use RedBeanPHP\R;
+use wfm\App;
 
 class Category extends AppModel
 {
@@ -26,12 +27,13 @@ class Category extends AppModel
 
     public function save_category(): bool
     {
+        $lang=App::$app->getProperty('language')['id'];
         R::begin();
         try {
             $category = R::dispense('category');
             $category->parent_id = post('parent_id', 'i');
             $category_id = R::store($category);
-            $category->slug = AppModel::create_slug('category', 'slug', $_POST['category_description'][1]['title'], $category_id);
+            $category->slug = AppModel::create_slug('category', 'slug', $_POST['category_description'][$lang]['title'], $category_id);
             R::store($category);
 
             foreach ($_POST['category_description'] as $lang_id=>$item) {
@@ -50,5 +52,39 @@ class Category extends AppModel
             R::rollback();
             return false;
         }
+    }
+    public function update_category($id): bool
+    {
+        R::begin();
+        try {
+            $category=R::load('category',$id);
+            if (!$category) {
+                return false;
+            }
+            $category->parent_id = post('parent_id', 'i');
+            R::store($category);
+
+            foreach ($_POST['category_description'] as $lang_id=>$item) {
+                R::exec("UPDATE category_description SET title=?,description=?,keywords=?,content=? WHERE category_id=? and language_id=?", [
+                    $item['title'],
+                    $item['description'],
+                    $item['keywords'],
+                    $item['content'],
+                    $id,
+                    $lang_id,
+                ]);
+            }
+            R::commit();
+            return true;
+        } catch (\Exception $e) {
+            R::rollback();
+            return false;
+        }
+    }
+
+    public function get_category($id) :array
+    {
+        return R::getAssoc("SELECT cd.language_id,cd.*,c.* FROM category_description cd JOIN category c on c.id = cd.category_id WHERE cd.category_id=?",[$id]);
+
     }
 }
