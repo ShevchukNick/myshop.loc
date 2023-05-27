@@ -1,0 +1,12 @@
+body {
+    min-width: 320px;;
+}
+@media all and (min-width: 992px) {
+    .logs {
+        margin-left: 250px;
+    }
+}
+
+.ck-editor__editable {
+    min-height: 300px;
+}
