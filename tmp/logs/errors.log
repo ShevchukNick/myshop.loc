@@ -24,3 +24,7 @@
 ================
 [2023-05-30 13:35:34] Текст ошибки: Method app\controllers\admin\UserController::indexAction не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 58 
 ================
+[2023-05-30 13:58:12] Текст ошибки: Method app\controllers\admin\ProductController::editAction не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 58 
+================
+[2023-05-30 16:11:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
