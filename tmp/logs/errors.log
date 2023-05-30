@@ -28,3 +28,9 @@
 ================
 [2023-05-30 16:11:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
 ================
+[2023-05-30 19:52:02] Текст ошибки: Controller app\controllers\admin\DownloadController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-30 19:52:02] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-30 19:53:44] Текст ошибки: Controller app\controllers\admin\DownloadController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
