@@ -25,4 +25,32 @@ class ProductController extends AppController
         $this->setMeta("Adminka :: {$title}");
         $this->set(compact('title','products','pagination','total'));
     }
+
+    public function addAction()
+    {
+        if (!empty($_POST)) {
+            if ($this->model->product_validate()){
+                if ($this->model->save_product()) {
+                    $_SESSION['success']= 'товар добавлен';
+                } else {
+                    $_SESSION['errors'] = 'error add tovara';
+                }
+
+            }
+            redirect();
+        }
+
+        $title = 'Новый товар';
+        $this->setMeta("Adminka :: {$title}");
+        $this->set(compact('title'));
+    }
+
+    public function getDownloadAction()
+    {
+        $q = get('q', 's');
+        $downloads = $this->model->get_downloads($q);
+        echo json_encode($downloads);
+        die;
+
+    }
 }
