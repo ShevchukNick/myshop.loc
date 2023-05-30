@@ -71,14 +71,12 @@
 
         </form>
 
-
     </div>
 
 </div>
 <!-- /.card -->
 
 <script>
-
     window.editors = {};
     document.querySelectorAll( '.editor' ).forEach( ( node, index ) => {
         ClassicEditor

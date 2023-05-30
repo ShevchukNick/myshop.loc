@@ -1,0 +1,26 @@
+[2023-05-28 13:35:19] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-28 17:00:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-28 23:33:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-29 00:44:28] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-29 00:46:57] Текст ошибки: не найден вид C:\OSPanel\domains\myshop.loc/app/views/admin/Product/add.php | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\View.php | Строка: 35 
+================
+[2023-05-29 00:46:57] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-29 22:15:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-30 12:28:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-30 13:28:13] Текст ошибки: syntax error, unexpected token ";" | Файл: C:\OSPanel\domains\myshop.loc\app\controllers\admin\ProductController.php | Строка: 36 
+================
+[2023-05-30 13:28:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-30 13:35:29] Текст ошибки: Controller app\controllers\admin\OrderController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-30 13:35:32] Текст ошибки: Controller app\controllers\admin\OrdersController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-30 13:35:34] Текст ошибки: Method app\controllers\admin\UserController::indexAction не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 58 
+================

@@ -1,4 +1,4 @@
 .idea
-public/adminlte/ckfinder
-tmp/cache
-tmp/logs
+public/adminlte/ckfinder/
+tmp/cache/
+tmp/logs/
