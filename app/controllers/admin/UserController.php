@@ -4,10 +4,26 @@
 namespace app\controllers\admin;
 
 use app\models\admin\User;
+use RedBeanPHP\R;
+use wfm\Pagination;
 
 /** @property User $model */
 class UserController extends AppController
 {
+
+    public function indexAction()
+    {
+        $page=get('page');
+        $perpage=20;
+        $total=R::count('user');
+        $pagination=new Pagination($page,$perpage,$total);
+        $start=$pagination->getStart();
+
+        $users=$this->model->get_users($start,$perpage);
+        $title = 'list of users';
+        $this->setMeta("Админка :: {$title}");
+        $this->set(compact('title','users','pagination','total'));
+    }
 
     public function loginAdminAction()
     {

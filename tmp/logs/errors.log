@@ -34,3 +34,13 @@
 ================
 [2023-05-30 19:53:44] Текст ошибки: Controller app\controllers\admin\DownloadController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
 ================
+[2023-05-31 12:46:00] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-31 13:04:40] Текст ошибки: Method app\controllers\admin\OrderController::editAction не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 58 
+================
+[2023-05-31 13:04:40] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
+[2023-05-31 13:05:12] Текст ошибки: Controller app\controllers\admin\OrdersController не найден | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 61 
+================
+[2023-05-31 13:49:15] Текст ошибки: Undefined variable $order | Файл: C:\OSPanel\domains\myshop.loc\app\views\admin\Order\edit.php | Строка: 16 
+================
