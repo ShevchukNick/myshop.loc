@@ -44,3 +44,13 @@
 ================
 [2023-05-31 13:49:15] Текст ошибки: Undefined variable $order | Файл: C:\OSPanel\domains\myshop.loc\app\views\admin\Order\edit.php | Строка: 16 
 ================
+[2023-05-31 14:53:08] Текст ошибки: Too few arguments to function app\models\admin\User::get_user(), 0 passed in C:\OSPanel\domains\myshop.loc\app\controllers\admin\UserController.php on line 31 and exactly 1 expected | Файл: C:\OSPanel\domains\myshop.loc\app\models\admin\User.php | Строка: 20 
+================
+[2023-05-31 14:53:57] Текст ошибки: Call to undefined method app\models\admin\Download::get_downloads() | Файл: C:\OSPanel\domains\myshop.loc\app\controllers\admin\DownloadController.php | Строка: 25 
+================
+[2023-05-31 14:53:59] Текст ошибки: Call to undefined method app\models\admin\Download::get_downloads() | Файл: C:\OSPanel\domains\myshop.loc\app\controllers\admin\DownloadController.php | Строка: 25 
+================
+[2023-05-31 14:55:31] Текст ошибки: Call to undefined method app\models\admin\Download::get_downloads() | Файл: C:\OSPanel\domains\myshop.loc\app\controllers\admin\DownloadController.php | Строка: 25 
+================
+[2023-05-31 14:55:51] Текст ошибки: Call to undefined method app\models\admin\Download::get_downloads() | Файл: C:\OSPanel\domains\myshop.loc\app\controllers\admin\DownloadController.php | Строка: 25 
+================
