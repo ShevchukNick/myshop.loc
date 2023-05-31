@@ -80,6 +80,29 @@ class UserController extends AppController
         $this->set(compact('title', 'user'));
     }
 
+    public function addAction()
+    {
+        if (!empty($_POST)) {
+            $this->model->load();
+            if (!$this->model->validate($this->model->attributes) || !$this->model->checkUnique('etot email zan9t'))  {
+                $this->model->getErrors();
+                $_SESSION['form_data']=$_POST;
+            } else {
+                $this->model->attributes['password']=password_hash($this->model->attributes['password'],PASSWORD_DEFAULT);
+                if ($this->model->save('user')) {
+                    $_SESSION['success']='ok';
+                } else {
+                    $_SESSION['errors']='error';
+                }
+            }
+            redirect();
+        }
+        $title = 'new пользователя';
+        $this->setMeta("Админка :: {$title}");
+        $this->set(compact('title'));
+    }
+
+
     public function loginAdminAction()
     {
         if ($this->model::isAdmin()) {

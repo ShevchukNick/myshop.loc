@@ -54,3 +54,5 @@
 ================
 [2023-05-31 14:55:51] Текст ошибки: Call to undefined method app\models\admin\Download::get_downloads() | Файл: C:\OSPanel\domains\myshop.loc\app\controllers\admin\DownloadController.php | Строка: 25 
 ================
+[2023-05-31 21:33:30] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\myshop.loc\vendor\wfm\Router.php | Строка: 64 
+================
