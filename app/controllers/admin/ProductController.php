@@ -45,12 +45,41 @@ class ProductController extends AppController
         $this->set(compact('title'));
     }
 
+    public function editAction()
+    {
+        $id = get('id');
+
+        if (!empty($_POST)) {
+            if ($this->model->product_validate()) {
+                if ($this->model->update_product($id)) {
+                    $_SESSION['success']='tovar soxranen';
+                } else {
+                    $_SESSION['errors'] = 'error update tovara';
+                }
+            }
+            redirect();
+        }
+
+        $product = $this->model->get_product($id);
+        if (!$product) {
+            throw new \Exception('Not found product', 404);
+        }
+
+        $gallery = $this->model->get_gallery($id);
+
+        $lang = App::$app->getProperty('language')['id'];
+        App::$app->setProperty('parent_id', $product[$lang]['category_id']);
+        $title = 'Редактирование товара';
+        $this->setMeta("Админка :: {$title}");
+        $this->set(compact('title', 'product', 'gallery'));
+    }
+
     public function getDownloadAction()
     {
         $q = get('q', 's');
         $downloads = $this->model->get_downloads($q);
         echo json_encode($downloads);
         die;
-
     }
+
 }
