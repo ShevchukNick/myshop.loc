@@ -1,4 +1,5 @@
 .idea
-public/adminlte/ckfinder/
-tmp/cache/
-tmp/logs/
+/vendor/vlucas
+/vendor/gabordemooij
+/vendor/phpmailer
+/tmp
